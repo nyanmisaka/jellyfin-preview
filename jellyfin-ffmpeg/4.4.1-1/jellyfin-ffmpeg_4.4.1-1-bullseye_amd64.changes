@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 7 Nov 2021 15:09:03 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg
+Architecture: amd64
+Version: 4.4.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (4.4.1-1) unstable; urgency=medium
+ .
+   * New upstream version 4.4.1
+Checksums-Sha1:
+ 29bec7105e0c777d144145e52ef484c198441ec8 25173448 jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
+ 37bce8b6c4a5f58b5955e943e2dd0f7efac4a883 10114 jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
+Checksums-Sha256:
+ be4e8e2ad37645c96a2a5060a4e94c80f27bbb6ef070d86e4bde10f6c35decf5 25173448 jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
+ 5c2700286f624ac212d5ff6b1d1d3784ceb9b862aea63a9522d2317a40069be2 10114 jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
+Files:
+ 06290f4379fde66b97145465eb5cb4ba 25173448 video optional jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
+ 7585116bdeb3a985e52ad45b4e8be5d4 10114 video optional jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
