@@ -15,11 +15,11 @@ Changes:
  .
    * New upstream version 4.4.1
 Checksums-Sha1:
- 29bec7105e0c777d144145e52ef484c198441ec8 25173448 jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
- 37bce8b6c4a5f58b5955e943e2dd0f7efac4a883 10114 jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
+ f39d2d16092ca96531fa3e3d76ff323027e0877b 25170296 jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
+ 70a70262ce414e66c7c3b64af13276d994dfd817 10018 jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
 Checksums-Sha256:
- be4e8e2ad37645c96a2a5060a4e94c80f27bbb6ef070d86e4bde10f6c35decf5 25173448 jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
- 5c2700286f624ac212d5ff6b1d1d3784ceb9b862aea63a9522d2317a40069be2 10114 jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
+ 2911667a899733ff9c9d145e17646832376b5af482325e77b5e5a71c4a27a843 25170296 jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
+ c58533d543de4fda3c7f012c8edf4bf8d94ae4c4d3e432310604ff303ae3bfd9 10018 jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
 Files:
- 06290f4379fde66b97145465eb5cb4ba 25173448 video optional jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
- 7585116bdeb3a985e52ad45b4e8be5d4 10114 video optional jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
+ 5229d6e58c1340496732b3d2e3895130 25170296 video optional jellyfin-ffmpeg_4.4.1-1-bullseye_amd64.deb
+ 62e4da19c3fe12925a4b94e6c3cd70dd 10018 video optional jellyfin-ffmpeg_4.4.1-1_amd64.buildinfo
