@@ -18,11 +18,11 @@ Changes:
    * Fix the issue that SPS/PPS are lost on AMD VCN H264 encoder.
    * Add cuda/ocl tonemap support for DoVi profile 5 and 8.
 Checksums-Sha1:
- bbdce1606c429d879158676eff7b4c0984d2fb48 38986020 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
- a0b37694c22aeedd5c27d12c75d34f62cfb64ab9 9838 jellyfin-ffmpeg_5.0.1-5_amd64.buildinfo
+ fafb78e81f9201961db6c2aa770b08f861bedd8a 38973132 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
+ 60458d84f176f9cf093c888a70defcdc3ac3bdcd 9838 jellyfin-ffmpeg_5.0.1-5_amd64.buildinfo
 Checksums-Sha256:
- 72b3d7c116d9bb0a5833b9086326437465816477bdfb45180bc51667070c7387 38986020 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
- f74445f7e992296a3def5b9e273001678f83eb4b386e4ee6a3dd176b55bb9c0f 9838 jellyfin-ffmpeg_5.0.1-5_amd64.buildinfo
+ f929a60a791a25a67cb0a8d83e2bd941842dd7d3abba63235d48b5a5154e0bd0 38973132 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
+ 06a7e24c87b1b533aa8180cd3e12a6bb9c50773c760dff95ff6c31eb9e20df11 9838 jellyfin-ffmpeg_5.0.1-5_amd64.buildinfo
 Files:
- b083a35189302ca83888d97fb4121524 38986020 video optional jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
- de2f4c52fff415d845e7a0d627e445b6 9838 video optional jellyfin-ffmpeg_5.0.1-5_amd64.buildinfo
+ 0f3529848d9d377723108c6815a870c5 38973132 video optional jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
+ 8201b6a9adc549e19ac8b5e4f6ce088e 9838 video optional jellyfin-ffmpeg_5.0.1-5_amd64.buildinfo

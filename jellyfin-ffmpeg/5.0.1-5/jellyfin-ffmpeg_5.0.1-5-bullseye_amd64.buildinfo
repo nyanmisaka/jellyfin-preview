@@ -4,14 +4,14 @@ Binary: jellyfin-ffmpeg5
 Architecture: amd64
 Version: 5.0.1-5
 Checksums-Md5:
- b083a35189302ca83888d97fb4121524 38986020 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
+ 0f3529848d9d377723108c6815a870c5 38973132 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
 Checksums-Sha1:
- bbdce1606c429d879158676eff7b4c0984d2fb48 38986020 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
+ fafb78e81f9201961db6c2aa770b08f861bedd8a 38973132 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
 Checksums-Sha256:
- 72b3d7c116d9bb0a5833b9086326437465816477bdfb45180bc51667070c7387 38986020 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
+ f929a60a791a25a67cb0a8d83e2bd941842dd7d3abba63235d48b5a5154e0bd0 38973132 jellyfin-ffmpeg5_5.0.1-5-bullseye_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Tue, 31 May 2022 09:25:22 +0000
+Build-Date: Thu, 02 Jun 2022 11:26:54 +0000
 Build-Tainted-By:
  usr-local-has-includes
  usr-local-has-libraries
