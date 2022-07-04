@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 1 Jul 2022 01:49:03 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg5
+Architecture: amd64
+Version: 5.0.1-8
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg5 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (5.0.1-8) unstable; urgency=medium
+ .
+   * Add pause support for ffmpeg by using p key.
+   * Faster HDR/DoVi tonemap on low-power devices.
+   * Add simple anti-aliasing for ocl/cuda tonemap.
+   * Update dependencies.
+Checksums-Sha1:
+ 91ea3c4467c786af74f4930ffd258b5a27de1ac7 38547532 jellyfin-ffmpeg5_5.0.1-8-bullseye_amd64.deb
+ 4e65cd390e851adcb2a7db8f4544e85e63041739 9838 jellyfin-ffmpeg_5.0.1-8_amd64.buildinfo
+Checksums-Sha256:
+ 5ed48bff6fdeaeb62e59b3744d0c538f5bc367a76c64ffd94941eb271055ce3d 38547532 jellyfin-ffmpeg5_5.0.1-8-bullseye_amd64.deb
+ 4a45015c293bce30da7e7c2a08bcc9889d7ee84213c5e76eb5bf3fd4ef5b13bf 9838 jellyfin-ffmpeg_5.0.1-8_amd64.buildinfo
+Files:
+ e83e54dccd798f50659643615e81b9c9 38547532 video optional jellyfin-ffmpeg5_5.0.1-8-bullseye_amd64.deb
+ 2dfe8eab7217e51ab6aa3baae10641e6 9838 video optional jellyfin-ffmpeg_5.0.1-8_amd64.buildinfo
