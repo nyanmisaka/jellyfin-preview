@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 30 Sep 2022 22:35:03 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg5
+Architecture: amd64
+Version: 5.1.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg5 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (5.1.2-1) unstable; urgency=medium
+ .
+   * New upstream version 5.1.2
+   * Enable SVT-AV1 encoder for amd64
+   * Remove unneeded assertion from AMF encoder
+   * Disable reshape if DOVI require an EL
+   * Update dependencies
+Checksums-Sha1:
+ cd460f25a86952286d74972519c7cf4f3f04ef4d 44618116 jellyfin-ffmpeg5_5.1.2-1-bullseye_amd64.deb
+ 6b53e85e10232682e92053c39a97a1b599830898 10004 jellyfin-ffmpeg_5.1.2-1_amd64.buildinfo
+Checksums-Sha256:
+ 0fca3fc7a76125f259a325e243bdb300b06b5cbd1c1b6bf839367f96e08224c0 44618116 jellyfin-ffmpeg5_5.1.2-1-bullseye_amd64.deb
+ a62c0a2ed9557d6cbc4bad8c732435c4df383f4cb39a2504c165c25ede590b3b 10004 jellyfin-ffmpeg_5.1.2-1_amd64.buildinfo
+Files:
+ 6473a34bcc98c0fcf910c05ced117115 44618116 video optional jellyfin-ffmpeg5_5.1.2-1-bullseye_amd64.deb
+ 04be2697aa555f9ed6275da8d0b18ab6 10004 video optional jellyfin-ffmpeg_5.1.2-1_amd64.buildinfo
