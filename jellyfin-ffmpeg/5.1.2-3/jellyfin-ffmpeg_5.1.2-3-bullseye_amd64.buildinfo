@@ -4,14 +4,14 @@ Binary: jellyfin-ffmpeg5
 Architecture: amd64
 Version: 5.1.2-3
 Checksums-Md5:
- 245bd019172d1e431910cafde6d559e8 38837820 jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
+ eb1116b04dc1ea28ada7ad7129e24aa9 38850080 jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
 Checksums-Sha1:
- 0745e104a0b366f0f43e307a6f8c59fc0bf42271 38837820 jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
+ 0ce96912e5aa283c19ce9740acfee914e3447664 38850080 jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
 Checksums-Sha256:
- c1a0bc9c54a1ebc80e8e4ddf7ccf049df3129810d8e62ee487f52946a64b579c 38837820 jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
+ a511ee9151d4a78bc738f3c818f2e00f17d0e858ef05ec13fee2f98aeab6687e 38850080 jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Wed, 26 Oct 2022 16:01:46 +0000
+Build-Date: Thu, 27 Oct 2022 11:09:44 +0000
 Build-Tainted-By:
  usr-local-has-includes
  usr-local-has-libraries
@@ -86,11 +86,11 @@ Installed-Build-Depends:
  libbrotli1 (= 1.0.9-2+b2),
  libbsd0 (= 0.11.3-1),
  libbz2-1.0 (= 1.0.8-4),
- libc-bin (= 2.31-13+deb11u5),
- libc-dev-bin (= 2.31-13+deb11u5),
- libc6 (= 2.31-13+deb11u5),
- libc6-dev (= 2.31-13+deb11u5),
- libc6-i386 (= 2.31-13+deb11u5),
+ libc-bin (= 2.31-13+deb11u4),
+ libc-dev-bin (= 2.31-13+deb11u4),
+ libc6 (= 2.31-13+deb11u4),
+ libc6-dev (= 2.31-13+deb11u4),
+ libc6-i386 (= 2.31-13+deb11u4),
  libcairo2 (= 1.16.0-5),
  libcap-ng0 (= 0.7.9-2.2+b1),
  libcc1-0 (= 10.2.1-6),
@@ -279,7 +279,7 @@ Installed-Build-Depends:
  libzvbi-common (= 0.2.35-18),
  libzvbi-dev (= 0.2.35-18),
  libzvbi0 (= 0.2.35-18),
- linux-libc-dev (= 5.10.149-2),
+ linux-libc-dev (= 5.10.140-1),
  login (= 1:4.8.1-1),
  lsb-base (= 11.1.0),
  m4 (= 1.4.18-5),
@@ -325,7 +325,7 @@ Environment:
  CFLAGS="-I/usr/lib/jellyfin-ffmpeg/include "
  CPPFLAGS="-I/usr/lib/jellyfin-ffmpeg/include "
  CXXFLAGS="-I/usr/lib/jellyfin-ffmpeg/include "
- DEB_BUILD_OPTIONS="noddebs parallel=2"
+ DEB_BUILD_OPTIONS="noddebs parallel=32"
  LDFLAGS="-Wl,-rpath=/usr/lib/jellyfin-ffmpeg/lib -L/usr/lib/jellyfin-ffmpeg/lib"
  LD_LIBRARY_PATH="/usr/lib/jellyfin-ffmpeg/lib:/usr/lib/jellyfin-ffmpeg/lib/mfx:/usr/lib/jellyfin-ffmpeg/lib/xorg:"
  SOURCE_DATE_EPOCH="1666788243"
