@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 26 Oct 2022 20:44:03 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg5
+Architecture: amd64
+Version: 5.1.2-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg5 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (5.1.2-3) unstable; urgency=medium
+ .
+   * Add tier option for the QSV HEVC encoder
+   * Add fixes for some quirks on DG2 on Windows
+   * Update dependencies
+Checksums-Sha1:
+ 0745e104a0b366f0f43e307a6f8c59fc0bf42271 38837820 jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
+ 24c2bde9b297170788ea75f07f1514934f23a3bd 10003 jellyfin-ffmpeg_5.1.2-3_amd64.buildinfo
+Checksums-Sha256:
+ c1a0bc9c54a1ebc80e8e4ddf7ccf049df3129810d8e62ee487f52946a64b579c 38837820 jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
+ 8152e76f5dcfe6023a45288a24951d5f85adea5771bc78d25da6b1504c81fdf1 10003 jellyfin-ffmpeg_5.1.2-3_amd64.buildinfo
+Files:
+ 245bd019172d1e431910cafde6d559e8 38837820 video optional jellyfin-ffmpeg5_5.1.2-3-bullseye_amd64.deb
+ 43d2e8c76ba370d5a9beb060956802e0 10003 video optional jellyfin-ffmpeg_5.1.2-3_amd64.buildinfo
