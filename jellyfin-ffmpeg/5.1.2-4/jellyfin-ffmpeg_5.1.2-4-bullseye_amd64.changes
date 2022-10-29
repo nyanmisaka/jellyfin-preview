@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 29 Oct 2022 17:22:13 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg5
+Architecture: amd64
+Version: 5.1.2-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg5 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (5.1.2-4) unstable; urgency=medium
+ .
+   * Hotfix for Mesa driver build
+Checksums-Sha1:
+ 4d006a3d59b9629d2fc395fb1e507567decd6e2f 44256172 jellyfin-ffmpeg5_5.1.2-4-bullseye_amd64.deb
+ efc1a11f3a183ae59c42c7f5f7cb36b64dd6801f 10004 jellyfin-ffmpeg_5.1.2-4_amd64.buildinfo
+Checksums-Sha256:
+ 0ee0cc76272526c7329536d67d12578d9fb1528168e58937d6fd1d3ce18a9533 44256172 jellyfin-ffmpeg5_5.1.2-4-bullseye_amd64.deb
+ 40b438cccd4501a26b45a7cab72469b9f3d3502164d7294476435082c863bb48 10004 jellyfin-ffmpeg_5.1.2-4_amd64.buildinfo
+Files:
+ bcd79529ccf1db043760403c1711bd16 44256172 video optional jellyfin-ffmpeg5_5.1.2-4-bullseye_amd64.deb
+ 363952323885b8c0259d762c43afbd2c 10004 video optional jellyfin-ffmpeg_5.1.2-4_amd64.buildinfo
