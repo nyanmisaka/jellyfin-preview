@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 17 Jan 2023 22:33:03 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg5
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.1.2-7
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg5 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (5.1.2-7) unstable; urgency=medium
+ .
+   * Enable zero-copy dovi buffer on Intel dGPU
+   * Improve scaling speed for VAAPI and QSV
+   * Fix the tone-mapping FPS regression on Pascal
+   * Update dependencies
+Checksums-Sha1:
+ fa63f8377ee093eae8405e57461ff050fa545b35 51131522 jellyfin-ffmpeg5_5.1.2-7-jammy_amd64.deb
+ 12742efa120ce940eacd8bd4545b8aaff246a605 11472 jellyfin-ffmpeg_5.1.2-7_amd64.buildinfo
+Checksums-Sha256:
+ e5dfabcecc9641803670a3c80f3f398e4ad09680ff9a31396bd5d485bb87a80e 51131522 jellyfin-ffmpeg5_5.1.2-7-jammy_amd64.deb
+ 1e128480ef0a3ad461310fde0f7f38d507f921eefca95d8848a79ee686e13613 11472 jellyfin-ffmpeg_5.1.2-7_amd64.buildinfo
+Files:
+ c38b6f02a59d93245b4bf6d5bec9094c 51131522 video optional jellyfin-ffmpeg5_5.1.2-7-jammy_amd64.deb
+ 0c2a2f6d15cde318bd6e25810726ffc5 11472 video optional jellyfin-ffmpeg_5.1.2-7_amd64.buildinfo
