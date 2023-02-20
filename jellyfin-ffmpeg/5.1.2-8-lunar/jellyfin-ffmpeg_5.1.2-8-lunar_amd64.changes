@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 15 Feb 2023 22:52:17 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg5
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.1.2-8
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg5 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (5.1.2-8) unstable; urgency=medium
+ .
+   * Remove the changed vulkan video extensions
+   * Don't fail on missing vulkan drm modifiers
+   * Prefer Vulkan device with higer API version
+   * Default to use complex font shaping in libass
+   * Add fixes for VAAPI-DRM-Vulkan tearing
+   * Add fixes for the incorrect null terminator in assenc
+   * Skip loading plugins on VPL runtime
+   * Update dependencies
+Checksums-Sha1:
+ 175704f961879cd87927b840159f11ef8466b8e6 51888448 jellyfin-ffmpeg5_5.1.2-8-lunar_amd64.deb
+ ad5f2f26c323c2e0da89637dc348d750f4e84e8d 10403 jellyfin-ffmpeg_5.1.2-8_amd64.buildinfo
+Checksums-Sha256:
+ 58889c702e73219824d3bc69390f4baea81a90672b3e5e313648bfd9bbdf34cc 51888448 jellyfin-ffmpeg5_5.1.2-8-lunar_amd64.deb
+ 5a7ea86e10aeaa06742ef661aab32020bfb36d5a1729050dd4af3f775b56c17b 10403 jellyfin-ffmpeg_5.1.2-8_amd64.buildinfo
+Files:
+ 08778d937af85ff537054358bf0dda2b 51888448 video optional jellyfin-ffmpeg5_5.1.2-8-lunar_amd64.deb
+ 819d67c4c1ace1e42f6faa9436e12cf4 10403 video optional jellyfin-ffmpeg_5.1.2-8_amd64.buildinfo
