@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 29 Apr 2023 22:45:23 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg6
+Architecture: amd64
+Version: 6.0-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg6 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (6.0-3) unstable; urgency=medium
+ .
+   * Add AV1 VA-API encoder from upstream intel
+   * Fix the slow VPP tone-mapping on DG2
+   * Update dependencies
+Checksums-Sha1:
+ 7637726a2468cba9004e5bfdcc8a2ddf30f0b8c3 38345816 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ 453c9e314b883ae6914fb5539c6684887bba1c55 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
+Checksums-Sha256:
+ b137115cd63b7c8b83ae831738216ec4bc47ddf53da73263078e39c6cc570941 38345816 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ d1aa54b8dce69cbe4be4624b02a79e3ca8e8891e76ac91958ba95c106c7efd23 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
+Files:
+ 421d840beb8c922ad03005054f02bfef 38345816 video optional jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ 9661a5f62c45c6b002135edf4d3e11bd 9708 video optional jellyfin-ffmpeg_6.0-3_amd64.buildinfo
