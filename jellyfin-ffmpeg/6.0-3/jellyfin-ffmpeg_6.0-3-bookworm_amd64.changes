@@ -17,11 +17,11 @@ Changes:
    * Fix the slow VPP tone-mapping on DG2
    * Update dependencies
 Checksums-Sha1:
- 7637726a2468cba9004e5bfdcc8a2ddf30f0b8c3 38345816 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
- 453c9e314b883ae6914fb5539c6684887bba1c55 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
+ dfb0fbb6424df0bdfd943fc47f6c27b2558240c1 38357232 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ 360f89c30b5377fe8723849fd0bcfb4f7e6b9586 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
 Checksums-Sha256:
- b137115cd63b7c8b83ae831738216ec4bc47ddf53da73263078e39c6cc570941 38345816 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
- d1aa54b8dce69cbe4be4624b02a79e3ca8e8891e76ac91958ba95c106c7efd23 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
+ ee336b11f7f5164b23a36e7e0587e9f4bf8b3980434ad1cd60b0dab60c887231 38357232 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ aea67b7f9482487e359a992bca92327d758b6efca770a49c66e1c680d66f9313 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
 Files:
- 421d840beb8c922ad03005054f02bfef 38345816 video optional jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
- 9661a5f62c45c6b002135edf4d3e11bd 9708 video optional jellyfin-ffmpeg_6.0-3_amd64.buildinfo
+ 1686d6ca9a1991be4c3475f350f77849 38357232 video optional jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ cbad087463a9b3d9b5940b9ed9c73b47 9708 video optional jellyfin-ffmpeg_6.0-3_amd64.buildinfo
