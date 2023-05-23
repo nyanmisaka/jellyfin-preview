@@ -15,13 +15,13 @@ Changes:
  .
    * Add AV1 VA-API encoder from upstream intel
    * Fix the slow VPP tone-mapping on DG2
-   * Update dependencies
+   * Update dependencies and build scripts
 Checksums-Sha1:
- 82f202e2f557c363314cd46c27c942255d608208 38357864 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
- b721a68084c39b0a7f13f2c06fb6c21f28c3f21c 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
+ b3b0defcd1ef5aedfe9ee79bf3b1b70549fe3623 38934180 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ 2e6cb61e5cde24717451e27d94d11b367e534b7e 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
 Checksums-Sha256:
- bfc26bbf5872e7d80b348b6fb26933a038ea754e1ba332726e5780cc5c62c7a2 38357864 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
- fd6164ff08aae66341a7e3ac4d3ab2ab92c7ec0fd1dddfd80cd17227fb659873 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
+ aec1be30fe81e2d75547095157a76efd9780a8b39ac41a4c1afe4268599f1ef7 38934180 jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ abf05e2cd2eca78f55de4fc6f5fc76c98ff0325f8e7051d50cc90528974c1c2f 9708 jellyfin-ffmpeg_6.0-3_amd64.buildinfo
 Files:
- 0ff8323fc7b9f4551f9aa1d073f8e1db 38357864 video optional jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
- bc34e1b9afddf24f3d261841f41ab3c7 9708 video optional jellyfin-ffmpeg_6.0-3_amd64.buildinfo
+ f6668c3724e6d164682a78f25ef3020f 38934180 video optional jellyfin-ffmpeg6_6.0-3-bookworm_amd64.deb
+ 2df39a96391531f810ec02ccb31ba334 9708 video optional jellyfin-ffmpeg_6.0-3_amd64.buildinfo
