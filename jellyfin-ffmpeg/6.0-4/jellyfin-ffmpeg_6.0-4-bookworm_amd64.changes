@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 15 Jun 2023 23:10:39 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg6
+Architecture: amd64
+Version: 6.0-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg6 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (6.0-4) unstable; urgency=medium
+ .
+   * Allow VA-API import DRM prime2 planar formats
+   * Fix the slow VPP tone-mapping on ADL-S and ADL-N
+   * Fix a potential memory leak in QSV
+   * Refine VA-API AV1 encoder
+   * Update queued fixes from upstream
+   * Update dependencies
+Checksums-Sha1:
+ cd2d27ddb57805090c2601fb1163b55e514d91ab 38984776 jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
+ 2bf843f6a00f6847248c0ea5d092b4d8fe78d02a 9716 jellyfin-ffmpeg_6.0-4_amd64.buildinfo
+Checksums-Sha256:
+ 08b050b897eabe318db4cb472ce4b8293b7d6d01dbed61313238e7c08f8833b2 38984776 jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
+ 694e37a20d7f88ff29c62073ecd77cd9182ab42ff23d713ebbfb67b554696b03 9716 jellyfin-ffmpeg_6.0-4_amd64.buildinfo
+Files:
+ ccdf288c8b86a1826d1414cdec40a7d9 38984776 video optional jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
+ 6c06f6336e11dce23cef1cdeb44ce04d 9716 video optional jellyfin-ffmpeg_6.0-4_amd64.buildinfo
