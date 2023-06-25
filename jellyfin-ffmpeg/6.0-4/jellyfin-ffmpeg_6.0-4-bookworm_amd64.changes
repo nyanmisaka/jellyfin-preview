@@ -20,11 +20,11 @@ Changes:
    * Update queued fixes from upstream
    * Update dependencies
 Checksums-Sha1:
- cd2d27ddb57805090c2601fb1163b55e514d91ab 38984776 jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
- 2bf843f6a00f6847248c0ea5d092b4d8fe78d02a 9716 jellyfin-ffmpeg_6.0-4_amd64.buildinfo
+ 79b37621f789658a3fa76fa67db4858022362f72 38985256 jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
+ 3554524abd5c4339c2c7350d826d34209ae567da 9716 jellyfin-ffmpeg_6.0-4_amd64.buildinfo
 Checksums-Sha256:
- 08b050b897eabe318db4cb472ce4b8293b7d6d01dbed61313238e7c08f8833b2 38984776 jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
- 694e37a20d7f88ff29c62073ecd77cd9182ab42ff23d713ebbfb67b554696b03 9716 jellyfin-ffmpeg_6.0-4_amd64.buildinfo
+ 49bfe3d194a5be34c8d9f7439bd9428b53f9ac1be950bfc3f4fb674b9caba1e1 38985256 jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
+ 65f85619ddd67e80697d6bd38c5edd6a9eafaadfe08b9b23f33bdad9358c4c5c 9716 jellyfin-ffmpeg_6.0-4_amd64.buildinfo
 Files:
- ccdf288c8b86a1826d1414cdec40a7d9 38984776 video optional jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
- 6c06f6336e11dce23cef1cdeb44ce04d 9716 video optional jellyfin-ffmpeg_6.0-4_amd64.buildinfo
+ a8eed3a678fa5e5c0472a0d052ffa53f 38985256 video optional jellyfin-ffmpeg6_6.0-4-bookworm_amd64.deb
+ a29b738ca96bf24191d7da1f4d02f4f2 9716 video optional jellyfin-ffmpeg_6.0-4_amd64.buildinfo
