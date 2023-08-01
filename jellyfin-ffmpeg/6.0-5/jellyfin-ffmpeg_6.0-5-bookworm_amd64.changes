@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 27 Jul 2023 21:54:12 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg6
+Architecture: amd64
+Version: 6.0-5
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg6 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (6.0-5) unstable; urgency=medium
+ .
+   * Add VUI info to the seq header of HEVC VA-API encoder
+   * Remove HDR metadata from tonemap_vaapi SDR output
+   * Backport QSV fixes from upstream
+   * Refine VA-API AV1 encoder v2
+   * Fix VA-API import DRM prime2 planar formats
+   * Use contiguous linear Vulkan images for AMD encoder
+   * Update dependencies
+Checksums-Sha1:
+ e81cb4237691097e6a7f85494784d92864581ab3 39198980 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ 6ca6d1a321361e5b7686efc4dae6ba1c1da16e0f 9789 jellyfin-ffmpeg_6.0-5_amd64.buildinfo
+Checksums-Sha256:
+ 912e0c6479b561a5c3ac5ae5f86ed2289f01320969d364d6dbae5304af32437c 39198980 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ ae64281b6171207655b959eec007654eb0767aa89773b0ec26b3579412b5d7a7 9789 jellyfin-ffmpeg_6.0-5_amd64.buildinfo
+Files:
+ 25c58e3f5c3c2a476b3d8aba1d7a0a44 39198980 video optional jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ ecb492d4a425c708bca545e0b26e6d53 9789 video optional jellyfin-ffmpeg_6.0-5_amd64.buildinfo
