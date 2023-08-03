@@ -4,14 +4,14 @@ Binary: jellyfin-ffmpeg6
 Architecture: amd64
 Version: 6.0-5
 Checksums-Md5:
- 25c58e3f5c3c2a476b3d8aba1d7a0a44 39198980 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ 7062f56b84e4f834d28cd5ed49b7e2b8 39197656 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
 Checksums-Sha1:
- e81cb4237691097e6a7f85494784d92864581ab3 39198980 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ d185d0482e3c29d2f7de03078144a9a37418685e 39197656 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
 Checksums-Sha256:
- 912e0c6479b561a5c3ac5ae5f86ed2289f01320969d364d6dbae5304af32437c 39198980 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ b613092f02cc1a9c782dbaa321a933f51205057588d1d7a8a49827fdb533c051 39197656 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sat, 29 Jul 2023 22:32:04 +0000
+Build-Date: Thu, 03 Aug 2023 11:52:39 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes
@@ -280,7 +280,7 @@ Installed-Build-Depends:
  libzvbi-common (= 0.2.41-1),
  libzvbi-dev (= 0.2.41-1),
  libzvbi0 (= 0.2.41-1),
- linux-libc-dev (= 6.1.38-1),
+ linux-libc-dev (= 6.1.38-2),
  llvm-14-linker-tools (= 1:14.0.6-12),
  login (= 1:4.13+dfsg1-1+b1),
  m4 (= 1.4.19-3),
@@ -330,7 +330,7 @@ Environment:
  CFLAGS="-I/usr/lib/jellyfin-ffmpeg/include "
  CPPFLAGS="-I/usr/lib/jellyfin-ffmpeg/include "
  CXXFLAGS="-I/usr/lib/jellyfin-ffmpeg/include "
- DEB_BUILD_OPTIONS="noddebs parallel=2"
+ DEB_BUILD_OPTIONS="noddebs parallel=32"
  LDFLAGS="-Wl,-rpath=/usr/lib/jellyfin-ffmpeg/lib -L/usr/lib/jellyfin-ffmpeg/lib"
  LD_LIBRARY_PATH="/usr/lib/jellyfin-ffmpeg/lib:/usr/lib/jellyfin-ffmpeg/lib/mfx:/usr/lib/jellyfin-ffmpeg/lib/xorg:"
  SOURCE_DATE_EPOCH="1690466052"
