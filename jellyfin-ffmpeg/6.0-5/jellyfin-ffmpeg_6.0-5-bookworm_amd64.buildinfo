@@ -4,14 +4,14 @@ Binary: jellyfin-ffmpeg6
 Architecture: amd64
 Version: 6.0-5
 Checksums-Md5:
- 0ec22eed045f2c644dac4b87ab9cccb7 39200664 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ 45dd634b36da1167e084ad38ab4e8d48 39202168 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
 Checksums-Sha1:
- 8a42be05aee96d63ecf5c8339ba476fad987b3c2 39200664 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ 73c176db5bedda398c675254ea55dc0a0f911130 39202168 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
 Checksums-Sha256:
- 59ed768e77b0e6509ed4055d4e5cf423e2522abae979abfcae06e811814dc2c8 39200664 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ 0ccd26142b1ae0db8a0859e376a951de5d9ee61f41fcbdaf3d76dac9ba917786 39202168 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 03 Aug 2023 16:57:55 +0000
+Build-Date: Fri, 04 Aug 2023 18:27:18 +0000
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-includes

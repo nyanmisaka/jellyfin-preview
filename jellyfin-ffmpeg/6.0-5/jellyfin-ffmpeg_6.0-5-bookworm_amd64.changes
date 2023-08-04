@@ -21,11 +21,11 @@ Changes:
    * Use contiguous linear Vulkan images for AMD encoder
    * Update dependencies
 Checksums-Sha1:
- 8a42be05aee96d63ecf5c8339ba476fad987b3c2 39200664 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
- eb099888b39b8653674fc89eb94d9f7eccdcb33e 9790 jellyfin-ffmpeg_6.0-5_amd64.buildinfo
+ 73c176db5bedda398c675254ea55dc0a0f911130 39202168 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ 6757254e5968ebdabdc36b4ad6b2a6693b357aa4 9790 jellyfin-ffmpeg_6.0-5_amd64.buildinfo
 Checksums-Sha256:
- 59ed768e77b0e6509ed4055d4e5cf423e2522abae979abfcae06e811814dc2c8 39200664 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
- 799cbf333091111a4e13755d7af087d6919f53bdb78c34e2c610fb97513b1956 9790 jellyfin-ffmpeg_6.0-5_amd64.buildinfo
+ 0ccd26142b1ae0db8a0859e376a951de5d9ee61f41fcbdaf3d76dac9ba917786 39202168 jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ ad9c226415d589ad2679d309b4c9b4f35d36f0585a36a0b9d99029e6a865d5a2 9790 jellyfin-ffmpeg_6.0-5_amd64.buildinfo
 Files:
- 0ec22eed045f2c644dac4b87ab9cccb7 39200664 video optional jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
- bf8126ecc2790e2358f82ebda98f7040 9790 video optional jellyfin-ffmpeg_6.0-5_amd64.buildinfo
+ 45dd634b36da1167e084ad38ab4e8d48 39202168 video optional jellyfin-ffmpeg6_6.0-5-bookworm_amd64.deb
+ 31d292740621c23af8446d42346bdd20 9790 video optional jellyfin-ffmpeg_6.0-5_amd64.buildinfo
