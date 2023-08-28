@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 26 Aug 2023 01:19:34 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg6
+Architecture: amd64
+Version: 6.0-6
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg6 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (6.0-6) unstable; urgency=medium
+ .
+   * Sync intel D3D11VA textures before mapping to OpenCL
+   * Tune the default param of QSV AV1e
+   * Backport upstream QSV fixes
+   * Update dependencies
+Checksums-Sha1:
+ ed64c2b378329d0c590523ca1692b94d6d194765 39214372 jellyfin-ffmpeg6_6.0-6-bookworm_amd64.deb
+ 10f08393258f37fe05063a20a123638608d7af41 9790 jellyfin-ffmpeg_6.0-6_amd64.buildinfo
+Checksums-Sha256:
+ bdfcec3679c30909e345ab4d070020b00ba84a6f230c37ab930cd3c5679b66ac 39214372 jellyfin-ffmpeg6_6.0-6-bookworm_amd64.deb
+ 07c31af0a3ce38e4e9bb73d1c7f38d9c3dbe3895b3f30510d7adce837468f2f9 9790 jellyfin-ffmpeg_6.0-6_amd64.buildinfo
+Files:
+ d327a5e162d8a40dc30bc1a1e7e8069b 39214372 video optional jellyfin-ffmpeg6_6.0-6-bookworm_amd64.deb
+ 1505441d9d72c3e0ac26db2c7e42d28a 9790 video optional jellyfin-ffmpeg_6.0-6_amd64.buildinfo
