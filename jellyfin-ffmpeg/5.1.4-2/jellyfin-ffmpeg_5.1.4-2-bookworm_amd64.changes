@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 30 Nov 2023 22:10:31 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg5
+Architecture: amd64
+Version: 5.1.4-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg5 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (5.1.4-2) unstable; urgency=medium
+ .
+   * Fix the broken DTS with fractional framerates on NVENC
+   * Fix the compatibility with ffnvcodec SDK 12.1
+Checksums-Sha1:
+ 7814cff488575f8056f3e87e7352bf39f8c85e3c 39970396 jellyfin-ffmpeg5_5.1.4-2-bookworm_amd64.deb
+ 5e160b651eb4d54eef502cd7ab63fdecd2ca8ef0 9943 jellyfin-ffmpeg_5.1.4-2_amd64.buildinfo
+Checksums-Sha256:
+ c51c81fc447875d56180c6a0cf46b8e2216e5586603c4927d956ec471df819d8 39970396 jellyfin-ffmpeg5_5.1.4-2-bookworm_amd64.deb
+ 0570c800f316a472dfb092b18af1d2235a053478611d4194e4c251f866574fe6 9943 jellyfin-ffmpeg_5.1.4-2_amd64.buildinfo
+Files:
+ b96f2147c7b930c8f57c3b2fc03e0608 39970396 video optional jellyfin-ffmpeg5_5.1.4-2-bookworm_amd64.deb
+ 037753223c2530e07e6d829cd9ee0244 9943 video optional jellyfin-ffmpeg_5.1.4-2_amd64.buildinfo
