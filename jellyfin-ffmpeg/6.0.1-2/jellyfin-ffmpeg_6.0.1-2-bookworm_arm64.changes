@@ -14,13 +14,14 @@ Changes:
  jellyfin-ffmpeg (6.0.1-2) unstable; urgency=medium
  .
    * Add full HWA pipeline for Rockchip RK3588 platform
+   * Fix libx265 encoded fMP4 HLS playback on Safari
    * Update build scripts and dependencies
 Checksums-Sha1:
- 24f8cbf0e570d1778ad94da75bdf5a52b6bb2f2f 11720860 jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
- 14d53974a0fa028a1f198b4c72dd166ac13c49f4 10095 jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
+ 65657830aed263bc9b308a363af2f2f6621d55a3 11719264 jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
+ cfeb2f30d6102a0ed5c4bc4ed657f75f1c3f5ba9 10095 jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
 Checksums-Sha256:
- a4afb29f2494b81ad83561a95f1163e57ada113596bb6fad0bcc02b2fccab54a 11720860 jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
- 92d5a74261ad7bafca41e591aede2ffbf0be9be84601331d5b9da57ba98425fb 10095 jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
+ ddd8f4515e344cbf4a4162b636f6193f729e5de6adeec98d53798fd2eec7f14a 11719264 jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
+ ede28119305b5a8db307ba33886a1b4da492d3b05e431f23a79bd061f1e23398 10095 jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
 Files:
- 31985c7a84b9268170bf5e5f304ac272 11720860 video optional jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
- adff50ebb4723a0cac7008ed2fac3a1d 10095 video optional jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
+ 31f824fbf1c957762d5ad890ce662159 11719264 video optional jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
+ 626e4bbfb17466448ef79b4533b9dfe3 10095 video optional jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
