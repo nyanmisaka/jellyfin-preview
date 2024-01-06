@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sun, 17 Dec 2023 22:41:39 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg6
+Architecture: amd64
+Version: 6.0.1-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg6 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (6.0.1-2) unstable; urgency=medium
+ .
+   * Add full HWA pipeline for Rockchip RK3588 platform
+   * Fix libx265 encoded fMP4 HLS playback on Safari
+   * Update build scripts and dependencies
+Checksums-Sha1:
+ d43b02460f9e7582b9e9fe4fc62bd8fed6943f3d 39243680 jellyfin-ffmpeg6_6.0.1-2-bookworm_amd64.deb
+ dc2d6806a3dd756827bd71193acd25362318ac96 10015 jellyfin-ffmpeg_6.0.1-2_amd64.buildinfo
+Checksums-Sha256:
+ e2d8a770bb96deba81f20ac55d08a0906fbafc03652d2c475562569174089847 39243680 jellyfin-ffmpeg6_6.0.1-2-bookworm_amd64.deb
+ ff90f13c355cab82e7511de7c9bf4589d127f4fc8a77fc1877737d99580723d8 10015 jellyfin-ffmpeg_6.0.1-2_amd64.buildinfo
+Files:
+ d007e16bd006ce31059409c2566c6819 39243680 video optional jellyfin-ffmpeg6_6.0.1-2-bookworm_amd64.deb
+ cd5d685e2f21fc5bffc511a832075b4f 10015 video optional jellyfin-ffmpeg_6.0.1-2_amd64.buildinfo
