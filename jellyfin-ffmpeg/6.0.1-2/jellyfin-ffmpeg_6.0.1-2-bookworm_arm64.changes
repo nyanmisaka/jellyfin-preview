@@ -17,11 +17,11 @@ Changes:
    * Fix libx265 encoded fMP4 HLS playback on Safari
    * Update build scripts and dependencies
 Checksums-Sha1:
- 1964516819111597dd954a312c3c7545f629f2c2 11717532 jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
- d7def86059f3922c3dbd0bf948131c75bf55c37b 10095 jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
+ 665c572919b3aada188f1bc149b6bf518c62fec2 11719036 jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
+ 965d2b9567eb8a7651a7dfc11a00e17f5bc8df11 10095 jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
 Checksums-Sha256:
- 57d6e32a5e1e702f685e55f839131bac32beb102b37a76d23f0642ccae7c8456 11717532 jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
- 86a62dcfd2ee0e6effcd31a748b0940671473873bb2a3c4256bd8bc03cac8f57 10095 jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
+ c72e5d36f63c6139a2a49a8498447038c5f913b1885491905fef8c44044e3442 11719036 jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
+ 71acc2820ddf4b10794cb8a7b14c271b46b5914e34f5415e47cb632fd1ea8a09 10095 jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
 Files:
- 638c62483de53f25a0d7d7d822cfe4bc 11717532 video optional jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
- dd02af79bea4d59f6e9fa87de0bd1763 10095 video optional jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
+ 537cec3b70f38c15365761e47f1996a3 11719036 video optional jellyfin-ffmpeg6_6.0.1-2-bookworm_arm64.deb
+ 8322ad372de70f0c8d4ebf9c332c8a1b 10095 video optional jellyfin-ffmpeg_6.0.1-2_arm64.buildinfo
