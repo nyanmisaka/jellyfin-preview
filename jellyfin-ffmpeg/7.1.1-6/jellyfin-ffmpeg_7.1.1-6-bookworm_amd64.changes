@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 8 Jun 2025 18:14:53 +0800
+Source: jellyfin-ffmpeg
+Binary: jellyfin-ffmpeg7
+Architecture: amd64
+Version: 7.1.1-6
+Distribution: unstable
+Urgency: medium
+Maintainer: Jellyfin Packaging Team <packaging@jellyfin.org>
+Changed-By: nyanmisaka <nst799610810@gmail.com>
+Description:
+ jellyfin-ffmpeg7 - Tools for transcoding, streaming and playing of multimedia files
+Changes:
+ jellyfin-ffmpeg (7.1.1-6) unstable; urgency=medium
+ .
+   * lavc/videotoolbox: don't return external error for invalid vt frame
+   * Add NV15 format input support for certain OpenCL filters
+   * Add array of textures support for d3d11va hwaccel
+   * Add Debian 13 Trixie for testing
+Checksums-Sha1:
+ 296ffac059cb266daa7b2d1cadf023d404b4b17c 44749232 jellyfin-ffmpeg7_7.1.1-6-bookworm_amd64.deb
+ 5799d102e4fe98fa28508aae5022020fb2e814fe 11065 jellyfin-ffmpeg_7.1.1-6_amd64.buildinfo
+Checksums-Sha256:
+ d359a15cf8793120c0f3cab44b68b5081d9d50354dd9f46010d05ddd4c2130c8 44749232 jellyfin-ffmpeg7_7.1.1-6-bookworm_amd64.deb
+ 1b89a743626e90e8e5062d7b2611b215376c41ad4f268ed1b0b0eebc2526992f 11065 jellyfin-ffmpeg_7.1.1-6_amd64.buildinfo
+Files:
+ c7ea7befa3326446a7dcd40d49910331 44749232 video optional jellyfin-ffmpeg7_7.1.1-6-bookworm_amd64.deb
+ c8dde8c6725ab7038939ef6ec49f703a 11065 video optional jellyfin-ffmpeg_7.1.1-6_amd64.buildinfo
